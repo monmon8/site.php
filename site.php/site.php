@@ -7,7 +7,14 @@
 </head>
 <body>
     <?php 
-        echo("Hello World");
+        $characterName = "Tom";
+        $characterAge = 80;
+
+        echo("There once was a man called  $characterName  <br>");
+        echo("He was $characterAge years old  ");
+        echo("He really like the same  $characterName <br>");
+        echo("But didnt like being $characterAge ");
+
     ?>
 </body>
 </html>
