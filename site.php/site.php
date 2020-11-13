@@ -7,8 +7,8 @@
 </head>
 <body>
     <?php 
-        $characterName = "Tom";
-        $characterAge = 80;
+        $characterName = "Jhon";
+        $characterAge = 78;
 
         echo("There once was a man called  $characterName  <br>");
         echo("He was $characterAge years old  ");
