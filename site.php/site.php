@@ -8,9 +8,10 @@
 <body>
     <?php 
         $phrase = "Hello World";
-        $age = 30;
-        $gpa = 30.4;
-        $isMale = false;
+        
+        echo strtolower($phrase) ;
+        echo str_replace("Hello", "Panda", $phrase);
+        echo substr($phrase,8,3);
 
     ?>
 </body>
